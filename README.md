@@ -1,9 +1,10 @@
-OkHttp
+Duego fork of OkHttp
 ======
 
-An HTTP & SPDY client for Android and Java applications.
+This is a Duego fork of OkHttp (HTTP & SPDY client for Android).
+It adds user delivery metrics and general network performance analysis data.
 
-For more information please see [the website][1].
+For OkHttp documentation please see [the website][1].
 
 
 
