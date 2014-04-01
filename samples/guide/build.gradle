@@ -1,0 +1,7 @@
+
+group = 'com.squareup.okhttp.sample'
+description = 'Sample: Guide'
+
+dependencies {
+  compile project(':okhttp')
+}

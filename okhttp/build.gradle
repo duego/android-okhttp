@@ -1,0 +1,7 @@
+
+
+description = 'OkHttp'
+
+dependencies {
+    compile group: 'org.codehaus.mojo', name: 'animal-sniffer-annotations', version:'1.10'
+}

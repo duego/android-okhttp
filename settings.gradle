@@ -1,0 +1,12 @@
+rootProject.name = 'parent'
+include ':okhttp', ':okhttp-apache', ':okhttp-tests', ':mockwebserver', ':sample-parent:guide', ':sample-parent:simple-client', ':sample-parent:static-server', ':sample-parent', ':benchmarks'
+
+project(':okhttp').projectDir = "$rootDir/okhttp" as File
+project(':okhttp-apache').projectDir = "$rootDir/okhttp-apache" as File
+project(':okhttp-tests').projectDir = "$rootDir/okhttp-tests" as File
+project(':mockwebserver').projectDir = "$rootDir/mockwebserver" as File
+project(':sample-parent:guide').projectDir = "$rootDir/samples/guide" as File
+project(':sample-parent:simple-client').projectDir = "$rootDir/samples/simple-client" as File
+project(':sample-parent:static-server').projectDir = "$rootDir/samples/static-server" as File
+project(':sample-parent').projectDir = "$rootDir/samples" as File
+project(':benchmarks').projectDir = "$rootDir/benchmarks" as File
